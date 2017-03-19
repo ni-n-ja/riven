@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/xhr.js"></script>
+    <script type="text/javascript" src="js/localStorage.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/web.js"></script>
+    <title>▐▜▐▐▜▗▌▞▜</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="search">
+            検索<br>
+            <select class="weapon-box" id="search-box"></select>
+            <br>
+            <button type="button" id="searchButton" style="margin-top:5px;">検索</button>
+            <div class="modResultList"> </div>
+        </div>
+        <div class="push">
+            出品
+            <div class="">
+                出品者名 <input class="alias" id="alias" type="text">
+            </div>
+            <div class="test">
+                武器 <select class="weapon-box" id="exhibit-weapon-box"></select>
+            </div>
+            <div class="test">
+                <select class="stats-list" id="stats1"></select>
+                <div class="">
+                    <input id="value1" type="text" name="value1" size="4"> %
+                </div>
+            </div>
+            <div class="test">
+                <select class="stats-list" id="stats2"></select>
+                <div class="">
+                    <input id="value2" type="text" size="4"> %
+                </div>
+            </div>
+            <div class="test">
+                <select class="stats-list" id="stats3"></select>
+                <div class="">
+                    <input id="value3" type="text" size="4"> %
+                </div>
+            </div>
+            <div class="test">
+                <select class="stats-list" id="disposition"></select>
+                <div class="">
+                    <input type="text" size="4" id="valueDisposition"> %
+                </div>
+            </div>
+            <br>
+            <button type="button" id="exhibitButton">出品</button>
+        </div>
+        <div class="list">
+            出品リスト
+            <div class="modExhibitionList"> </div>
+        </div>
+    </div>
+
+    <div class="interrupt">
+        <h3>Please Wait...</h3>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+@charset "utf-8";
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tt-dropdown-menu {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.search, .push, .list {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.search {
+    background-color: #AAA;
+}
+
+.push {
+    background-color: #bbb;
+}
+
+.list {
+    background-color: #CCC #scrollable-dropdown-menu .tt-dropdown-menu {
+        max-height: 150px;
+        overflow-y: auto;
+    }
+    ;
+}
+
+.mod {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+html, body {
+    background-color: #0288D1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    background-color: white;
+}
+
+@media screen and (max-height:600px) {
+    body {
+        display: flex;
+        width: 100%;
+        background-color: white;
+    }
+}
+
+@media screen and (min-height:601px) {
+    body {
+        display: flex;
+        width: 960px;
+        background-color: white;
+    }
+}
+
+.weapons-list, .stats-list {
+    position: absolute;
+    background-color: #DDD;
+    border: solid 1px;
+    display: none;
+    overflow: scroll;
+    height: 50%;
+}
+
+.weapons-list-content, .stats-list-content {
+    margin: 0;
+    box-sizing: border-box;
+    border: solid 1px #DDD;
+}
+
+.weapons-list-content:hover {
+    border: solid 1px #71C2FF;
+}
+
+.stats-list-content:hover {
+    border: solid 1px #71C2FF;
+}
